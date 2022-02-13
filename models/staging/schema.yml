@@ -1,0 +1,10 @@
+version: 2
+sources:
+    - name: staging
+      database: data-engineer-339410
+      schema: trips_data_all
+
+      table: 
+        - name: green_tripdata_partitoned
+        - name: yellow_tripdata_partitoned 
+
